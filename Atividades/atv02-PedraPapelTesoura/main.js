@@ -4,11 +4,9 @@ var pontMaquina = 0
 
 function validarVencedor(){
  
-
     var usuario = parseInt(prompt("Insira um número de 1 a 3: 1-PEDRA, 2-PAPEL, 3-TESOURA"));
     var maquina = Math.floor(Math.random() * 3 + 1);
 
-    
     console.log(usuario)
     console.log(maquina)
 
@@ -36,7 +34,6 @@ function validarVencedor(){
 
         alert('Valor Incorreto Selecione: 1-PEDRA, 2-PAPEL, 3-TESOURA')
     }
-
 }
 
 
