@@ -1,0 +1,8 @@
+body {
+    background-color: aquamarine;
+    transition: .8s;
+}
+
+.backgroung-red {
+    background-color: red;
+}

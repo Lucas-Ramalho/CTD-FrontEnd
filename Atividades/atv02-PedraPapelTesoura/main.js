@@ -32,6 +32,7 @@ function validarVencedor(){
         }
     } else {
 
+        console.log("===Opção INCORRETA rodada cancelada====")
         alert('Valor Incorreto Selecione: 1-PEDRA, 2-PAPEL, 3-TESOURA')
     }
 }
@@ -57,11 +58,9 @@ function comecarJogo(){
        console.log('Resultado Final: Partida Empatada')
        alert('Resultado final: Partida Empatada - ' + pontUsuario + ' x ' + pontMaquina  )
    }
-
 }
+
 
 if(confirm('Bora Jogar?')){
     comecarJogo()
 }
-
-
